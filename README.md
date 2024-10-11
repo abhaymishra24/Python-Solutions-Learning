@@ -10,11 +10,21 @@ In this project, I am working on various Python programming questions and proble
 
 - In this project, I am also trying to write programs to build a good project using Python.
 
-## Objective 
+## Objective ✍️
 
 - Make an effort to learn new functions, recursion, loops, input/output (I/O), libraries, and more. 
 - Upskill myself with new technology.
 - Try to develop skills in a variety of areas, including artificial intelligence, computational thinking, data science, machine learning, etc.
 - Try to explore new things in technology using the Python programming language.
+
+## Work and Learning by- [ Abhay Mishra 🧑‍💻 ]
+
+I aim to learn new solutions and tackle Python programming challenges ranging from basic to advanced levels. Learning new libraries and functions in Python to upskill myself. Learn how to use the Python programming language in different technologies and build real-world projects.
+
+## Thank you for visiting this repository😊
+
+- Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🤝🧑‍💻🚀
+
+
 
 
