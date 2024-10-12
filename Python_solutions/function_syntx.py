@@ -13,5 +13,6 @@ def func1():      # this is function definition
 
 
 func1()   # this is function call
+print("Thank you for Learning, Python")
 
 # The sentx of function programm 
