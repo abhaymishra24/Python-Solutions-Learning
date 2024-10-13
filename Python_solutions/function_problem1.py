@@ -39,3 +39,17 @@ def name(city, country="India"):       # this is defaultu value
     print(country)
 
 name ("Delhi")                       # if we not put any country name in name fucntion call, so defult value will be India
+
+
+# Here we understand recursion method 
+
+# we understand rescursion with factorial method
+
+def fact(n):                         # name the function def 
+    if(n==1 or n==0):                 # pull condition
+        return 1
+    return n * fact(n-1)               # write logic for result the code
+
+
+n = int(input("Enter number: "))              # write code for print the factorial number by user 
+print(f"factorial numer is {fact(n)}")        # then call the function for result the user given value
