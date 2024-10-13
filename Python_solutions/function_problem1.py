@@ -13,10 +13,21 @@ goodbye("Sujeet", "From America")
 
 # Here we will learn return concept
 
-def name(country, city):
-    print(country, + city)
-    return 90
+def name(city):
+    print("Abhay, " + city)
+    return 90                      # return statement value
 
 
-a= print("America", "NewYork")
-print(a)
+a = name("NewYork")
+print(a)                             # print return statment value
+
+# here the also example of return value
+
+def greet(name):
+    ge = "hello, " + name          
+
+    return ge                     # return value
+
+a= greet ("harry")
+print(a)                          # print return value
+
