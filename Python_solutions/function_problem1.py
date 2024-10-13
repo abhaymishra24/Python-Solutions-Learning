@@ -31,3 +31,11 @@ def greet(name):
 a= greet ("harry")
 print(a)                          # print return value
 
+
+# Here we learn default argument
+
+def name(city, country="India"):       # this is defaultu value
+    print(f"Welcome to, {city}")
+    print(country)
+
+name ("Delhi")                       # if we not put any country name in name fucntion call, so defult value will be India
