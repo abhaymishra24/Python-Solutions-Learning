@@ -1,4 +1,6 @@
 
+
+
 # write a solution to find out sum of n number using recursive 
 
 def sum(n):          # difine value
