@@ -12,3 +12,14 @@ c = f_to_c(f)                          # call the function
 
 print(f"{round(c, 2)}°C.")                 # print the result
 
+
+
+# here we solve a problem where we learn that how to pretend new line in print statement 
+
+# so we can use end="" blank function for avoid line
+
+
+print("Abhay")
+print("is")
+print("a ", end="")
+print("programmer", end="")           # use of end=" blank space for avoid new line"
