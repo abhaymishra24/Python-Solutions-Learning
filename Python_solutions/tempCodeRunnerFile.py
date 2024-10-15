@@ -1,7 +1,5 @@
-def name(city):
-    print("Abhay, " + city)
-    return 90
+def multi(n):
+#     for i in range(1, 11):               # the logic 
+#         print(f"{i}X{n}={n*i}")                                      # pattern of multiplication
 
-
-a = print("NewYork")
-print(a)
+# print(multi(n))  

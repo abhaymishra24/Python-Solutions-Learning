@@ -17,10 +17,16 @@ print(f"The value of cms is : {inchs_to_cms(n)}")                 # print the fi
 
 def multi(n):
     for i in range(1, 11):               # the logic 
-        print(f"{i}X{n}={n*i}")            # pattern of multiplication
-    
-n = int(input("Enter you number: "))           # user number
+        print(f"{i}X{n}={n*i}")                                      # pattern of multiplication
+
 print(multi(n))                                   # enter final result
 
-# Question number 3= 
+# Question number 3 = write a table of 5 till 20 times using function
+
+def table(n):                             # table defination
+    for i in range(1, 21):                    # condition number
+        print(f"{i}X{n}={n*i}")           # logic to print table
+
+    print(table(5))                         # print final table
+    
  
