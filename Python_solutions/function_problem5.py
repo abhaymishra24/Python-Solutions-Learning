@@ -21,4 +21,6 @@ def multi(n):
     
 n = int(input("Enter you number: "))           # user number
 print(multi(n))                                   # enter final result
+
+# Question number 3= 
  
