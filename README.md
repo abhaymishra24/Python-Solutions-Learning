@@ -1,5 +1,5 @@
 
-# Python-Solutions-Learning <a href="https://www.python.com" target="_blank" rel="noreferrer"> <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="java" width="40" height="40"/>
+# Python-Solutions-Learning <a href="https://www.python.com" target="_blank" rel="noreferrer"> <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="java" width="30" height="30"/>
 
 
 Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. It is created by Guido van Rossum on February 20, 1991. Python is commonly used for developing websites and software, task automation, data analysis, and data visualisation.
