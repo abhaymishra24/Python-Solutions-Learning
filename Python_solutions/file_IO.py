@@ -17,3 +17,4 @@ f = open ("file2.txt", "w")
 f.write(st)
 
 f.close
+
