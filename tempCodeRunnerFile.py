@@ -1,1 +1,1 @@
-# @staticmethod
+t.fair("delhi", "Lucknow")
