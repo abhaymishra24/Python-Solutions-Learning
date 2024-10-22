@@ -1,1 +1,1 @@
-t.fair("delhi", "Lucknow")
+ 
