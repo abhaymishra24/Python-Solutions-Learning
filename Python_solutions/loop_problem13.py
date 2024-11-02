@@ -1,5 +1,4 @@
 
-
 # problem number 13 = wirte the following star pattern by for loop
 
 #  *
