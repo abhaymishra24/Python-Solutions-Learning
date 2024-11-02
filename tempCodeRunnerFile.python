@@ -1,0 +1,14 @@
+class Diwali:
+
+    def first_diwali(self):
+        print("Diwali is today")
+        print("Diwali is a good festivel")
+
+    def second_cele(self):
+
+        print("We are celebrating the diwali")
+        print("Diwali is festivel of light and sweets")
+
+d=Diwali()
+d.first_diwali()
+d.second_cele()
