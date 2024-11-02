@@ -62,6 +62,4 @@ class Diwali:
 
 d=Diwali()
 d.first_diwali()
-d.second_cele()
-
-         
+d.second_cele()        

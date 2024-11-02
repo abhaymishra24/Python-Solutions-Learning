@@ -1,7 +1,6 @@
 
 # problem number 3= show the train status, fair, and train number.
 
-
 from random import randint
 
 class Train:
@@ -48,5 +47,4 @@ t.book("delhi", "Lucknow")
 t.status()
 t.fair("delhi", "Lucknow")
 
-# So here we can see that there is no issue if we use s .
-         
+# So here we can see that there is no issue if we use s .         
