@@ -1,6 +1,4 @@
 
-
-
 #  write a programm to find out greatest number using function.
 
 def greatnum(a, b, c):                        # here we make function with argument
@@ -16,6 +14,3 @@ b= 10
 c= 12
 
 print(greatnum(a, b, c))          # here we print the number
-
-
-
