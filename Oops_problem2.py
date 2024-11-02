@@ -47,15 +47,15 @@ n.s_number(16,4)
 n.p_number(5,6)
 n.d_number(10,5)
 
-# Oops problem about diwali celecbration
+# Normal code about diwali celecbration
 
 class Diwali:
 
-    def first_diwali():
+    def first_diwali(self):
         print("Diwali is today")
         print("Diwali is a good festivel")
 
-    def second_cele():
+    def second_cele(self):
 
         print("We are celebrating the diwali")
         print("Diwali is festivel of light and sweets")
