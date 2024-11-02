@@ -1,6 +1,4 @@
 
-
-
 # write a solution to find out sum of n number using recursive 
 
 def sum(n):          # difine value
@@ -26,4 +24,3 @@ def star(n):
     star (n-1)
 
 star(5)                  # print the result
-

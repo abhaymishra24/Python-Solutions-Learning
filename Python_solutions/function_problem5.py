@@ -1,6 +1,4 @@
 
-
-
 # the problem is - write a programm to convert inchs into cms by user given value in function
 
 def inchs_to_cms(inchs):
@@ -27,6 +25,4 @@ def table(n):                             # table defination
     for i in range(1, 21):                    # condition number
         print(f"{i}X{n}={n*i}")           # logic to print table
 
-    print(table(5))                         # print final table
-    
- 
+    print(table(5))                         # print final tabl
