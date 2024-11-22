@@ -6,8 +6,9 @@ def number():
     n = int(input("Enter your number: "))
     
     for i in range(n):
-        print(n*2)
-        7
-    
+        
+        if n==10:
+            break
+        print(n*2)      
 number()
         
