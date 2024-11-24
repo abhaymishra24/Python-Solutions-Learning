@@ -22,5 +22,5 @@ def money():
     
     print("Thank you for invest")
     
-    
+money()
     
