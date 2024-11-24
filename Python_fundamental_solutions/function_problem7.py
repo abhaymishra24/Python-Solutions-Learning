@@ -14,3 +14,8 @@ def number():
         
 number()
 
+def money():
+    
+    m = int(input("Enter your money:"))
+    
+    
