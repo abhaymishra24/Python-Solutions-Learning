@@ -18,4 +18,9 @@ def money():
     
     m = int(input("Enter your money:"))
     
+    print(f"Your extra money: {m*2} congratulation!")
+    
+    print("Thank you for invest")
+    
+    
     
