@@ -13,4 +13,3 @@ def number():
         print(b)
         
 number()
-
