@@ -1,4 +1,10 @@
 
+class calculation:
+    
+    def __init__(self):
+        pass
+    
+    
 def number():
     
     n = int(input("Enter your number: "))
