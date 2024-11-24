@@ -20,7 +20,7 @@ def money():
     
     print(f"Your extra money: {m*2} congratulation!")
     
-    print("Thank you for invest")
+    print("Thank you for investment, Please visit next time!")
     
 money()
     
