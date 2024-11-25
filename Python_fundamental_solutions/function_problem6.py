@@ -1,13 +1,11 @@
 
 ## here programm of function - 
 
-class talk:
+class Talk:
     def number():
         n = int(input("Enter your number: "))
         
         b = n*2
-        
-        
     
         if b == 10:
           print("It's ten number")
@@ -17,6 +15,14 @@ class talk:
           print(b)
         
     number()
+    
+    def talk():
+        
+        t = input()
+        print("Thank you for talk")
+        
+    talk()
+        
 
     
      
