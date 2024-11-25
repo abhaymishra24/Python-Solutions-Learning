@@ -23,10 +23,3 @@ class Talk:
         
     talk()
         
-
-    
-     
-    
- 
-       
-       
