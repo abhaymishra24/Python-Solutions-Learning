@@ -69,10 +69,3 @@ print(emp.language, emp.Salary)
 
 emp.get()
 emp.greet()
-
-
-
-
-
-
-
