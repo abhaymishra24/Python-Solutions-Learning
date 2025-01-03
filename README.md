@@ -9,8 +9,6 @@ Python is a high-level, general-purpose programming language. Its design philoso
 
 In this project, I am working on various Python programming questions and problems. I aim to learn new solutions and tackle Python programming challenges ranging from basic to advanced levels. I am also utilizing Python libraries for some of these problems. Additionally, I am trying to learn how to solve more complex problems and apply these skills to real-world scenarios.
 
-- In this project, I am also trying to write programs to build a good project using Python.
-
 ### Objective ✍️
 
 - Make an effort to learn new functions, recursion, loops, input/output (I/O), libraries, and more. 
