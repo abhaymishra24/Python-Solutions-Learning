@@ -10,6 +10,7 @@ In this project, I am working on various Python programming questions and proble
 ### Objective ✍️
 
 - Make an effort to learn new functions, recursion, loops, input/output (I/O), libraries, and more. 
+- Build a good understanding of OOP concepts, along with questions, problems, and their solutions.
 - Upskill myself with new technology.
 - Try to develop skills in a variety of areas, including artificial intelligence, computational thinking, data science, machine learning, etc.
 - Try to explore new things in technology using the Python programming language.
