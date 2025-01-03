@@ -23,9 +23,4 @@ In this project, I am working on various Python programming questions and proble
 I aim to learn new solutions and tackle Python programming challenges ranging from basic to advanced levels. Learning new libraries and functions in Python to upskill myself. Learn how to use the Python programming language in different technologies and build real-world projects.
 
 ## Thank you for visiting this repository😊
-
-- Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🤝🧑‍💻🚀
-
-
-
-
+Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🤝🧑‍💻🚀
