@@ -47,4 +47,6 @@ t.book("delhi", "Lucknow")
 t.status()
 t.fair("delhi", "Lucknow")
 
-# So here we can see that there is no issue if we use s .         
+# So here we can see that there is no issue if we use s .    
+
+## [https://leetcode.com/problems/unique-length-3-palindromic-subsequences/submissions/1497450746/?envType=daily-question&envId=2025-01-04]     
