@@ -1,8 +1,0 @@
-
-Hello Everyone,
- 
-I am Abhay Mishra.
-
-Welcome , I am learning python.
-
-Thankyou.
