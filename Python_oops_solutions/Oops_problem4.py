@@ -7,8 +7,10 @@ def score(self):
     
     for i in range(t):
         
-        x , y = map(int, input().split())
-        
         target_score = x - y 
         
         print(target_score)
+        
+x , y = map(int, input().split())
+print(score())        
+        
