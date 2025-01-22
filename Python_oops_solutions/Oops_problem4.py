@@ -14,8 +14,7 @@
 # x = int(input())
 # y = int(input())
 # print(score())       
-        
-        
+                
 def score(x, y, t):
     results = []
     
