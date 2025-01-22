@@ -25,12 +25,13 @@ def score(x, y, t):
     
     return results
 
+t = int(input("Enter the number of test cases: "))
 # Input for x and y
 x = int(input("Enter the value for x: "))
 y = int(input("Enter the value for y: "))
 
 # Input for number of test cases
-t = int(input("Enter the number of test cases: "))
+# t = int(input("Enter the number of test cases: "))
 
 # Call the score function and print results
 scores = score(x, y, t)
