@@ -1,17 +1,18 @@
 
-# cook your dish here
+# # cook your dish here
 
-def score(sc):
+# def score(sc):
     
-    t = int(input())
+#     t = int(input())
     
-    for i in range(t):
+#     for i in range(t):
         
-        target_score = x - y 
+#         target_score = x - y 
         
-        print(target_score)
+#         print(target_score)
         
-x = int(input())
-y = int(input())
-print(score())       
+# x = int(input())
+# y = int(input())
+# print(score())       
+        
         
