@@ -1,7 +1,7 @@
 
 # cook your dish here
 
-def score(self):
+def score(sc):
     
     t = int(input())
     
@@ -11,6 +11,7 @@ def score(self):
         
         print(target_score)
         
-x , y = map(int, input().split())
-print(score())        
+x = int(input())
+y = int(input())
+print(score())       
         
