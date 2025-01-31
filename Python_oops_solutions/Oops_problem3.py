@@ -48,4 +48,3 @@ t.status()
 t.fair("delhi", "Lucknow")
 
 # So here we can see that there is no issue if we use s .    
-
