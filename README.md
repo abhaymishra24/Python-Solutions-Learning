@@ -14,7 +14,7 @@ In this project, I am working on various Python programming questions and proble
 - Upskill myself with new technology.
 - Try to explore new things in technology using the Python programming language.
 
-### Work and Learning by- [ Abhay Mishra 🧑‍💻 ]
+### Work and learning by- [ Abhay Mishra 🧑‍💻 ]
 
 I aim to learn new solutions and tackle Python programming challenges ranging from basic to advanced levels. Learning new libraries and functions in Python to upskill myself. Learn how to use the Python programming language in different technologies and build real-world projects.
 
