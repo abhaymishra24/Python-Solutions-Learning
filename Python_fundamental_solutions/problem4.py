@@ -15,6 +15,4 @@ marks.append(marks6)
 marks7=  input("Enter name of marks 7=") 
 marks.append(marks6)
 
-
-
 print (marks)
