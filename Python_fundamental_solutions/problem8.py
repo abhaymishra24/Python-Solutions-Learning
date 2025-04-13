@@ -1,10 +1,8 @@
 
 t = int(input())
 
-k,l = map(int, input().split())
+x,y = map(int, input().split())
 
 for i in range(t):
-    
     # k,l = map(int, input().split())
-    
-    print(k*l)
+    print(x*y)
