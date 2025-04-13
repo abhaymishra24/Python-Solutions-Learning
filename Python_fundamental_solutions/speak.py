@@ -18,11 +18,11 @@ voices = engine.getProperty('voices')       #getting details of current voice
 #engine.setProperty('voice', voices[0].id)  #changing index, changes voices. o for male
 engine.setProperty('voice', voices[0].id)   #changing index, changes voices. 1 for female
 
-engine.say("Abhay is a foolish boy")
+engine.say("")
 engine.runAndWait()
 engine.stop()
 
 """Saving Voice to a file"""
 # On linux make sure that 'espeak' and 'ffmpeg' are installed
-engine.save_to_file('Hello World', 'test.mp3')
+engine.save_to_file('Astha pagal hai', 'test.mp3')
 engine.runAndWait()
