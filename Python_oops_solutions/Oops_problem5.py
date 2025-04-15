@@ -20,4 +20,8 @@ class number:
     def multiple(self):
         
         b = int(input())
+        print(b*b)
         
+t = number()
+t.sum()
+t.multiple()
