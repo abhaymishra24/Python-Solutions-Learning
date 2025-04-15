@@ -14,4 +14,10 @@ class number:
     
     def sum(self):
         
-        a = 
+        a = int(input())
+        print(a+a)
+        
+    def multiple(self):
+        
+        b = int(input())
+        
