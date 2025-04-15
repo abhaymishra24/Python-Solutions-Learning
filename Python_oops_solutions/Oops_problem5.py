@@ -7,3 +7,11 @@ def number():
     print(c)
 
 n = number()
+
+# now write oops code - 
+
+class number:
+    
+    def sum(self):
+        
+        a = 
