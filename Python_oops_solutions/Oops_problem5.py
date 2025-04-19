@@ -10,21 +10,21 @@ n = number()
 
 # now write oops code - 
 
-# class number:
+class number:
     
-#     def sum(self):
+    def sum(self):
         
-#         a = int(input())
-#         print(a+a)
+        a = int(input())
+        print(a+a)
         
-#     def multiple(self):
+    def multiple(self):
         
-#         b = int(input())
-#         print(b*b)
+        b = int(input())
+        print(b*b)
         
-# t = number()
-# t.sum()
-# t.multiple()
+t = number()
+t.sum()
+t.multiple()
 
 # s = str(input())
 
