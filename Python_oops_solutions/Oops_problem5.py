@@ -26,3 +26,6 @@
 # t.sum()
 # t.multiple()
 
+s = str(input())
+
+# print(s)

@@ -1,1 +1,1 @@
-n = number()
+print(s)
