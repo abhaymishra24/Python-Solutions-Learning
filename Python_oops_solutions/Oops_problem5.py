@@ -1,12 +1,12 @@
 
-def number():
+# def number():
     
-    a = int(input())
-    b = a*2
-    c = b*4
-    print(c)
+#     a = int(input())
+#     b = a*2
+#     c = b*4
+#     print(c)
 
-n = number()
+# n = number()
 
 # now write oops code - 
 
@@ -24,11 +24,12 @@ class number:
         
     def divide(self):
         c = int(input())
-        print(c/c)
+        print(c//c)
         
 t = number()
 t.sum()
 t.multiple()
+t.divide()
 
 # s = str(input())
 
