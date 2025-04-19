@@ -45,3 +45,11 @@ class sugercane:
         
 p = sugercane()
 p.profit()
+
+# check once , what is this mean-
+
+# s = str(input())
+# # print(s)
+
+# s = list(input())
+# print(list)
