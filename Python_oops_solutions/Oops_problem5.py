@@ -35,9 +35,7 @@ t.multiple()
 t.divide()
 
 # s = str(input())
-
 # # print(s)
 
-# S = list(input())
-
+# s = list(input())
 # print(list)
