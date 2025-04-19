@@ -1,12 +1,14 @@
 
-# def number():
-    
-#     a = int(input())
-#     b = a*2
-#     c = b*4
-#     print(c)
+# write code in function -
 
-# n = number()
+def number():
+    
+    a = int(input())
+    b = a*2
+    c = b*4
+    print(c)
+
+n = number()
 
 # now write oops code - 
 
@@ -24,7 +26,8 @@ class number:
         
     def divide(self):
         c = int(input())
-        print(c//c)
+        d = int(input())
+        print(c//d)
         
 t = number()
 t.sum()
