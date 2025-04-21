@@ -46,6 +46,12 @@ class sugercane:
 p = sugercane()
 p.profit()
 
+class Points:
+    
+    def point(self):
+        
+        
+
 # check once , what is this mean-
 
 # s = str(input())
