@@ -46,8 +46,9 @@ class sugercane:
 p = sugercane()
 p.profit()
 
+# Practice one other class problem.
+
 class Points:
-    
     def point(self):
         p = int(input())
         if p < 1000:
