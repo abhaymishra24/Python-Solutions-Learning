@@ -50,10 +50,10 @@ class Points:
     
     def point(self):
         p = int(input())
-        if p > 1000:
+        if p < 1000:
             print("You win hundred points.")
-        elif p == 5000:
-            print("Congratulation:You win a T-shirt and 250 points")  
+        elif p <= 5000 and p > 3000:
+            print("Congratulation:You win a T-shirt and 250 points.")  
         else:
             print("You tried good, best luck next time")      
         
