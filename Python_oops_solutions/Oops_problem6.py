@@ -39,11 +39,18 @@ class Work:
             print("Stop coding, do other thing.")
                
         else:
-            print("Do code , if you did not feel bad.")
+            print("Do code , if you did not feel bore.")
             
     def writting(self):
         
         t = int(input())
+        if t >= 3:
+            print("Stop writting, do other thing.")
+            
+        else:
+            print("Do writting, if you did not feel bore")
+            
+    
         
         
         
