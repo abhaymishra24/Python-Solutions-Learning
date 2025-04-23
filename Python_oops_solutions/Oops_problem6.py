@@ -36,7 +36,7 @@ class Work:
         
         n = int(input())
         if n >= 2:
-            print("Stop coding, do other thing.")
+            print("Stop coding, do other thing. Just relex.")
                
         else:
             print("Do code , if you did not feel bore.")
@@ -45,7 +45,7 @@ class Work:
         
         t = int(input())
         if t >= 3:
-            print("Stop writting, do other thing.")
+            print("Stop writting, do other thing. Just relex.")
             
         else:
             print("Do writting, if you did not feel bore")
@@ -60,6 +60,9 @@ class Work:
             print("Do project and think about project, if you did not feel bore.")
             
             
-        
+w = Work()
+w.coding()
+w.project()
+w.writting()
         
         
