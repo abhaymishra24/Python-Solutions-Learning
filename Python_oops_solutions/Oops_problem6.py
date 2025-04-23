@@ -29,3 +29,10 @@ class India:
             
 In = India()
 In.tech()        
+
+class Work:
+    
+    def coding(self):
+        
+        n = int(input())
+        
