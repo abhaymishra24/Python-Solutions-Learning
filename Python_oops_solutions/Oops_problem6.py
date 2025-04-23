@@ -35,4 +35,15 @@ class Work:
     def coding(self):
         
         n = int(input())
+        if n >= 2:
+            print("Stop coding, do other thing.")
+               
+        else:
+            print("Do code , if you did not feel bad.")
+            
+    def writting(self):
+        
+        t = int(input())
+        
+        
         
