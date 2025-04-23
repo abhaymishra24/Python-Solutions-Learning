@@ -50,7 +50,16 @@ class Work:
         else:
             print("Do writting, if you did not feel bore")
             
-    
+    def project(self):
+        
+        n = int(input())
+        if n >= 3:
+            print("stop doing project. just relex.")
+            
+        else:
+            print("Do project and think about project, if you did not feel bore.")
+            
+            
         
         
         
