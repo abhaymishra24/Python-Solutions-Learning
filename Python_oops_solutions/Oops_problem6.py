@@ -16,3 +16,16 @@ L=lazy()
 
 # next one - 
 
+class India:
+    
+    def tech(self):
+        
+        n = int(input())
+        if n == "Tech Development":
+            print("India will grow.")
+            
+        else:
+            print("Depand on U.S, and its not good thing.")
+            
+In = India()
+In.tech()        
