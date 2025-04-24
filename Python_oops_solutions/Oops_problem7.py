@@ -14,5 +14,3 @@ class Number:
         else:
             print("Astha maha pagal hai.")
             
-a = Astha()
-a.pagal()
