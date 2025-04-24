@@ -3,7 +3,7 @@
 
 # first - 
 
-class Astha:
+class Number:
     
     def pagal(self):
         
