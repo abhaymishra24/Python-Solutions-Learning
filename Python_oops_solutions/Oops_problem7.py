@@ -35,4 +35,3 @@ def count_complete_subarrays(arr):
                 count += 1
 
     return count
-
