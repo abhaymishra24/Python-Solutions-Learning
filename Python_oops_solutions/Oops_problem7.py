@@ -65,5 +65,3 @@ def count_complete_subarrays(arr):
 
 # 1 <= nums.length <= 1000
 # 1 <= nums[i] <= 2000
-
-
