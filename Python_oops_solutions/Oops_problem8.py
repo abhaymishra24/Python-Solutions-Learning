@@ -41,4 +41,4 @@
 #         return res
 
 
-def 
+def number(n,k):
