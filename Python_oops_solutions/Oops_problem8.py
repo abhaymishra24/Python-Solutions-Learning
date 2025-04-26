@@ -28,17 +28,17 @@
 # - Hence, cnt = 1 and cnt % modulo == k. 
 # It can be shown that there are no other interesting subarrays. So, the answer is 3.
 
-# class Solution(object):
-#     def countInterestingSubarrays(self, nums, modulo, k):
-#         n = len(nums)
-#         cnt = Counter([0])
-#         res = 0
-#         prefix = 0
-#         for i in range(n):
-#             prefix += 1 if nums[i] % modulo == k else 0
-#             res += cnt[(prefix - k + modulo) % modulo]
-#             cnt[prefix % modulo] += 1
-#         return res
+class Solution(object):
+    def countInterestingSubarrays(self, nums, modulo, k):
+        n = len(nums)
+        cnt = Counter([0])
+        res = 0
+        prefix = 0
+        for i in range(n):
+            prefix += 1 if nums[i] % modulo == k else 0
+            res += cnt[(prefix - k + modulo) % modulo]
+            cnt[prefix % modulo] += 1
+        return res
 
-
-# def number(n,k):
+s = Solution()
+print(s.countInterestingSubarrays([3,2,4], 2, 1)) # Output: 3
