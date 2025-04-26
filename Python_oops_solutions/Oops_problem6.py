@@ -120,5 +120,3 @@ class Day:
             
         else:
             print("Do work, if you did not feel bore.")
-            
-

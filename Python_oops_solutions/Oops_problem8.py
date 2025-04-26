@@ -41,4 +41,4 @@
 #         return res
 
 
-def number(n,k):
+# def number(n,k):
