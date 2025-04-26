@@ -102,21 +102,3 @@ class Day:
             print("Do project and think about project, if you did not feel bore.")
             
 
-    def relax(self):
-        
-        n = int(input())
-        if n >= 2:
-            print("Stop doing work. Just relex.")
-            
-        else:
-            print("Do work, if you did not feel bore.")
-            
-
-    def fun(self):  
-        
-        n = int(input())
-        if n >= 2:
-            print("Stop doing work. Just relex.")
-            
-        else:
-            print("Do work, if you did not feel bore.")
