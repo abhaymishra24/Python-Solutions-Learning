@@ -1,24 +1,24 @@
 
 # The question is - make calculater class and find out square, qube, Squareroot.
 
-# class calculater:
-#     def __init__(self, n):
-#         self.n=n
+class calculater:
+    def __init__(self, n):
+        self.n=n
          
-#     def square(self):
-#             print(f"this is square: {self.n*self.n}")
+    def square(self):
+            print(f"this is square: {self.n*self.n}")
     
-#     def qube(self):
-#             print(f"this is qube: {self.n*self.n*self.n}")
+    def qube(self):
+            print(f"this is qube: {self.n*self.n*self.n}")
 
-#     def squareroot(self):
-#             print(f"this is squareroot: {self.n**1/2}")
+    def squareroot(self):
+            print(f"this is squareroot: {self.n**1/2}")
 
 
-# cal = calculater(5)
-# cal.square()
-# cal.qube()
-# cal.squareroot()
+cal = calculater(5)
+cal.square()
+cal.qube()
+cal.squareroot()
 
 # Here solved a Oops problem base con calulation basics in different mode-
 
@@ -49,17 +49,17 @@ n.d_number(10,5)
 
 # Normal code about diwali celecbration
 
-# class Diwali:
+class Diwali:
 
-#     def first_diwali(self):
-#         print("Diwali is today")
-#         print("Diwali is a good festivel")
+    def first_diwali(self):
+        print("Diwali is today")
+        print("Diwali is a good festivel")
 
-#     def second_cele(self):
+    def second_cele(self):
 
-#         print("We are celebrating the diwali")
-#         print("Diwali is festivel of light and sweets")
+        print("We are celebrating the diwali")
+        print("Diwali is festivel of light and sweets")
 
-# d=Diwali()
-# d.first_diwali()
-# d.second_cele()        
+d=Diwali()
+d.first_diwali()
+d.second_cele()        
