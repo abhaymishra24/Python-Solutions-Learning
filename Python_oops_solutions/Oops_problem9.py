@@ -37,3 +37,36 @@
 # b.mytime()
 # b.daybyday()
 
+# def nearest_multiple_of_3(N):
+#     remainder = N % 3
+#     if remainder == 0:
+#         return N
+#     elif remainder == 1:
+#         return N - 1
+#     else:
+#         return N + 1
+
+# # Example usage
+# N = 1
+# print(f"The nearest multiple of 3 to {N} is {nearest_multiple_of_3(N)}")
+
+
+def construct_array(N):
+    if N == 1:
+        return [-1]
+    result = []
+    for i in range(N // 2):
+        result.append(3)
+        result.append(-3)
+    if N % 2 != 0:
+        result.append(0)
+    return result
+
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    result = construct_array(N)
+    if result == [-1]:
+        print(-1)
+    else:
+        print(" ".join(map(str, result)))
