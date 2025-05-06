@@ -22,5 +22,3 @@ I aim to learn new solutions and tackle Python programming challenges ranging fr
 
 ### Thank you for visiting this repository😊
 Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🤝🧑‍💻🚀
-
-<!-- <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> -->
