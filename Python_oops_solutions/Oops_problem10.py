@@ -9,5 +9,3 @@
 # # Input from the user
 # N = int(input("Enter an integer: "))
 # print("Reversed Integer:", reverse_integer(N))
-
-
