@@ -1,10 +1,12 @@
 
 ## Python-Solutions-Learning <a href="https://www.python.com" target="_blank" rel="noreferrer"> <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="java" width="30" height="30"/>
 
+#### Definition of Python - 
 Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. It is created by Guido van Rossum on February 20, 1991. Python is commonly used for developing websites and software, task automation, data analysis, and data visualisation.
 
 ![Python logo](https://github.com/abhaymishra24/Python-Solutions-Learning-/blob/main/Python%20code%203.png)
 
+### Project description✍️
 In this project, I am working on various Python programming questions and problems. I aim to learn new solutions and tackle Python programming challenges ranging from basic to advanced levels. I am also utilizing Python libraries for some of these problems. Additionally, I am trying to learn how to solve more complex problems and apply these skills to real-world scenarios.
 
 ### Objective✍️
