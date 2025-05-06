@@ -36,4 +36,3 @@ class book:
 b = book("11:30", "Friday")
 b.mytime()
 b.daybyday()
-
