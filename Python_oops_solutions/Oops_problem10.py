@@ -61,6 +61,4 @@ def number(self, n, m, k):
     self.k = k
     
     print(f"Money from diferent account:{n+m+k}rupees.")
-    print(f"distribute money in other bussiness: {(n+m+k)//10}")
-    
-    
+    print(f"distribute money in other bussiness: {(n+m+k)//10}")   
