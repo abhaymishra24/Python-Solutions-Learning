@@ -56,7 +56,7 @@ t.night()
 
 def number(n, m, k):
     print(f"Money from diferent account:{n+m+k} rupees.")
-    print(f"distribute money in other bussiness: {(n+m+k)//10}")   
+    print(f"distribute money in other bussiness: {(n+m+k)//5}")   
     
-number(1000, 2000, 3000)
+number(30000, 42000, 35000)
   
