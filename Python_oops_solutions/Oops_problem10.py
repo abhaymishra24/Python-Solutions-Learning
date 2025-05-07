@@ -62,3 +62,4 @@ def number(n, m, k):
 number(30000, 42000, 35000)
 number(20000, 50000, 60000)
  
+def number(n, m, k):
