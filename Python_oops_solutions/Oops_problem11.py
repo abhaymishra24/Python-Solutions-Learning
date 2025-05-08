@@ -20,9 +20,8 @@ nums2 = [1, 2, 3, 1]
 print(contains_duplicate(nums1))  # Output: False
 print(contains_duplicate(nums2))  # Output: True
 
-def dublicate(num):
-    return len(num) != len(set(num))
+# def dublicate(num):
+#     return len(num) != len(set(num))
 
-num1 = [2,3,4,5,5,6]
-num2 = [2,3,4,5,6,7]
-
+# num1 = [2,3,4,5,5,6]
+# num2 = [2,3,4,5,6,7]
