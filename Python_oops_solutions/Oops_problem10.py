@@ -62,12 +62,3 @@
 # number(30000, 42000, 35000)
 # number(20000, 50000, 60000)
 
-def contains_duplicate(nums):
-    return len(nums) != len(set(nums))
-
-# Example usage
-nums1 = [1, 2, 3, 4]
-nums2 = [1, 2, 3, 1]
-
-print(contains_duplicate(nums1))  # Output: False
-print(contains_duplicate(nums2))  # Output: True
