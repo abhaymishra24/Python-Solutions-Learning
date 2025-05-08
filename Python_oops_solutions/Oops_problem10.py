@@ -55,11 +55,19 @@
 
 # Another programme in function - 
 
-def number(n, m, k):
-    print(f"Money from diferent account:{n+m+k} rupees.")
-    print(f"distribute money in other bussiness: {(n+m+k)//5}")   
+# def number(n, m, k):
+#     print(f"Money from diferent account:{n+m+k} rupees.")
+#     print(f"distribute money in other bussiness: {(n+m+k)//5}")   
     
-number(30000, 42000, 35000)
-number(20000, 50000, 60000)
- 
-def number(n, m, k):
+# number(30000, 42000, 35000)
+# number(20000, 50000, 60000)
+
+def contains_duplicate(nums):
+    return len(nums) != len(set(nums))
+
+# Example usage
+nums1 = [1, 2, 3, 4]
+nums2 = [1, 2, 3, 1]
+
+print(contains_duplicate(nums1))  # Output: False
+print(contains_duplicate(nums2))  # Output: True
