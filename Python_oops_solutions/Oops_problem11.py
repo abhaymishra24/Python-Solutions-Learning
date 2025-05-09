@@ -1,15 +1,17 @@
 
-def containsDuplicate(self, nums):
+# def containsDuplicate(self, nums):
 
-        n = len(nums)
+#         n = len(nums)
 
-        for i in range(n-1):
-            for j in range(i+1,n):
-                if nums[i] == nums[j]:
-                    return True
+#         for i in range(n-1):
+#             for j in range(i+1,n):
+#                 if nums[i] == nums[j]:
+#                     return True
 
-        return False     
+#         return False     
     
+# Using set
+
 def contains_duplicate(nums):
     return len(nums) != len(set(nums))
 
@@ -19,9 +21,3 @@ nums2 = [1, 2, 3, 1]
 
 print(contains_duplicate(nums1))  # Output: False
 print(contains_duplicate(nums2))  # Output: True
-
-# def dublicate(num):
-#     return len(num) != len(set(num))
-
-# num1 = [2,3,4,5,5,6]
-# num2 = [2,3,4,5,6,7]
