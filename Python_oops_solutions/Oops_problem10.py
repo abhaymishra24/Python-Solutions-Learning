@@ -83,8 +83,3 @@ def find_unique_integers(digits):
 # Example usage
 digits = [1, 2, 3]
 print(find_unique_integers(digits))
-
-
-
-
-
