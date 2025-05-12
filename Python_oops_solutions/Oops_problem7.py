@@ -47,8 +47,6 @@ def count_complete_subarrays(arr):
 
 # A subarray is a contiguous non-empty part of an array.
 
- 
-
 # Example 1:
 
 # Input: nums = [1,3,1,2,2]
@@ -60,7 +58,6 @@ def count_complete_subarrays(arr):
 # Output: 10
 # Explanation: The array consists only of the integer 5, so any subarray is complete. The number of subarrays that we can choose is 10.
  
-
 # Constraints:
 
 # 1 <= nums.length <= 1000

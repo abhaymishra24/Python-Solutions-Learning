@@ -22,7 +22,6 @@ t.book("delhi", "Lucknow")
 t.status()
 t.fair("delhi", "Lucknow")
 
-
 # here is one question rise if we not use self so is there any issue? lets check 
 # we will use only s for entair programm , lets see what happen.
 
@@ -69,4 +68,3 @@ t = Train(12600)
 t.book("delhi", "Lucknow")
 t.status()
 t.fair("delhi", "Lucknow")
- 
