@@ -20,4 +20,7 @@
 
 with open("abhay.txt", "r") as f:
     data = f.read()
+    f.write("Hello, this is a test write operation.")
     print(data)
+    
+
