@@ -18,9 +18,11 @@
 
 # f.close
 
-with open("abhay.txt", "r") as f:
-    data = f.readline()
-    data = f.read()
+# with open("abhay.txt", "r") as f:
+#     data = f.readline()
+#     data = f.read()
    
     
-
+read = open("file2.txt", "r")
+print(read.read())
+read.close()
