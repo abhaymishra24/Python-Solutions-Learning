@@ -5,6 +5,7 @@ class Account:
         
         self.balacne = bal
         self.account_no = acc
+        print("Your current balance is:", self.balacne, "Rupees.")
         
     # here we write fuction for debit -
     
@@ -12,6 +13,7 @@ class Account:
         
         self.balacne -= amount
         print("Debited from your account:", amount,"Rupees.")
+        print("Your current balance is:", self.balacne, "Rupees.")
         
     # here we write function for credit -
     
@@ -19,6 +21,7 @@ class Account:
         
         self.balacne += amount
         print("Credited in your account:", amount,"Rupees.")
+        print("Your current balance is:", self.balacne, "Rupees.")
         
     # here we write method for finale balance -
     
