@@ -33,4 +33,17 @@ acc1 = Account(20000, 92846624)
 acc1.credit(40000)
 acc1.debit(15000)
 acc1.bal()
+    
+    
+class Name:
+    
+    def __init__ (self, first_name, last_name):
         
+        self.__first_name = first_name
+        self.__last_name = last_name
+        
+    
+N = Name("Anurag", "Pandit")
+print(N.__first_name)
+print(N.__last_name)
+    
