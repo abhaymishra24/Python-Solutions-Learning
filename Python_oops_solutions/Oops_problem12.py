@@ -35,15 +35,31 @@ acc1.debit(15000)
 acc1.bal()
     
     
-class Name:
+# class Name:
     
-    def __init__ (self, first_name, last_name):
+#     def __init__ (self, first_name, last_name):
         
-        self.__first_name = first_name
-        self.__last_name = last_name
+#         self.__first_name = first_name
+#         self.__last_name = last_name
         
     
-N = Name("Anurag", "Pandit")
-print(N.__first_name)
-print(N.__last_name)
+# N = Name("Hello", "Hung")
+# print(N.__first_name)
+# print(N.__last_name)
+
+class Name2:
+    
+    def __init__(self, name, sir_name):
+         
+         self.name = name
+         self.sir_name = sir_name
+         
+    def __print(self):
+        print("Your name is:", self.name)
+        print("Your sir name is:", self.sir_name)
+        
+
+ID = Name2("Abhishek", "Diwadi")
+print(ID.name)
+print(print())
     
