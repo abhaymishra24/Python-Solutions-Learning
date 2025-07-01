@@ -22,10 +22,12 @@
 # else: 
 #     print("This is prime number")
     
+ 
+n = 5
     
 for i in range(1, 11):
     
-    print(i*2)
-    i += 1
+    print(i*n)
+    # i += 1
     
 print("this a table of 2 using for loop")
