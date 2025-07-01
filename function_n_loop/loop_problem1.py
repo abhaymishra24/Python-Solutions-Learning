@@ -34,3 +34,14 @@ while nums <= 100:
    
 print("End at 100.") 
 print("This is the number from 1 to 100.")
+
+
+n = 1
+
+while n <= 10:
+    
+    print(n*2)
+    n += 1
+    
+print("table of 2")
+

@@ -19,3 +19,4 @@ for i in range (1, 11):
 
 # the answer is = starting a normel table from 1 to 10 in staright segment but for reverse we will user n-i for itteration 
 # of each value 
+
