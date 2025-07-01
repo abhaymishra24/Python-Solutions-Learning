@@ -1,21 +1,21 @@
 
-# here, we solve loops problems 
+# problem number 15 = wirte the programm to print multiplication using for loops in reverse table.
+ 
+# Solution 15 -
 
-# this problem solve by for loop
-
-n = int(input("Enter number: "))
-
-for i in range(1, 11):
-
-    print(f"{n} X {i}= {n * i}")
-
-# same problem solve by while loops
+# first we take input from user
 
 n = int(input("Enter your number: "))
 
-i = 1
+# we use for loops condition for iteration the value given by user
 
-while(i<11):
-    print(f"{n} X {i}= {n*i}")
-    i = i+1
-    
+for i in range (1, 11):
+
+# we print the table from 1 to n-1 in print statement
+
+    print(f"{n} X {11-i}= {n*(11-i)}")          # f use for adding verible function perfomance in print statement
+
+# why we use 11 - i ?
+
+# the answer is = starting a normel table from 1 to 10 in staright segment but for reverse we will user n-i for itteration 
+# of each value 
