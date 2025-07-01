@@ -1,10 +1,4 @@
 
-class calculation:
-    
-    def __init__(self):
-        pass
-    
-    
 def number():
     
     n = int(input("Enter your number: "))
@@ -29,4 +23,34 @@ def money():
     print("Thank you for investment, Please visit next time!")
     
 money()
+
+
+def get_answer():
     
+    num = int(input("Enter value: "))
+    
+    find_circle = 2*3.14*num
+    print(f"Area of circle is {find_circle}.")
+    
+    if find_circle < 30:
+        print("It is not eligible for cemra section")
+        
+    else:
+        print("It is eligible for cemra section.")
+        
+        
+get_answer()
+ 
+ 
+
+def goto():
+    
+    n = 0
+    if n == 8:
+        print("Astha should not be go school.")
+        
+    else:
+        print("Astha should go school.")
+        
+n = int(input("Enter your time: "))
+goto()
