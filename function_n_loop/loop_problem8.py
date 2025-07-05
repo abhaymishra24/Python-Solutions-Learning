@@ -1,8 +1,4 @@
 
-# problem number 15 = wirte the programm to print multiplication using for loops in reverse table.
- 
-# Solution 15 -
-
 # first we take input from user
 
 n = int(input("Enter your number: "))
