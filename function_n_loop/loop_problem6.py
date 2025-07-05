@@ -23,3 +23,21 @@ for i in range (1, n+1):
 # second we print all star using again same pattern
 
     print("")
+    
+
+def number():
+    
+    n = int(input("Enter your number: "))
+    
+    for i in range(2, 100, 1):
+        
+        ans = (n*i)
+        print(ans)
+        
+        if ans == 80:
+            print("This is complete number.")
+            break
+           
+         
+number()
+        

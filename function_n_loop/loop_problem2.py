@@ -27,7 +27,37 @@ n = 5
     
 for i in range(1, 11):
     
+    if i == 7:
+        break
     print(i*n)
-    # i += 1
     
-print("this a table of 2 using for loop")
+print("this a table of 2 using for loop.")
+
+
+for i in range(3, 100, 3):
+    if i == 30:
+        break
+    print(i)
+    
+print("This is your odd number.")
+
+# table using function and for loop - 
+
+def print_table():
+    
+    n = int(input("Enter your number: "))
+    
+    for i in range(1, 11):
+        
+        print(n*i)
+        
+print_table()
+print("This is your table.")
+
+def print_num():
+    
+    for i in range(2, 11, 2):
+        print(i)
+        
+print_num()
+
