@@ -22,9 +22,9 @@ n = 20
 
 for i in range(1, 100, 10):
     
-    if n == 80:
+    if n == 81:
         break
-    print(n+i)
+    
     
 print("This is your number from 20 to 100 with step of 10.")
 print("This is the end of the loop.")
