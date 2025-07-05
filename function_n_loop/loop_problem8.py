@@ -16,3 +16,15 @@ for i in range (1, 11):
 # the answer is = starting a normel table from 1 to 10 in staright segment but for reverse we will user n-i for itteration 
 # of each value 
 
+
+
+n = 20
+
+for i in range(1, 100, 10):
+    
+    if n == 80:
+        break
+    print(n+i)
+    
+print("This is your number from 20 to 100 with step of 10.")
+print("This is the end of the loop.")
