@@ -32,6 +32,18 @@ def cal_fact():
   fact = 1
   
   for i in range(1, n+1):
+    fact *= i
+
+  print(f"Factorial of {n} is {fact}")
+    
+cal_fact()
+# compaire this with the previous code to see the difference in logic and output.
+def cal_fact():
+    
+  n = int(input("Enter ur number:"))
+  fact = 1
+  
+  for i in range(1, n+1):
     
     print(fact**1)
     
