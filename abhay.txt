@@ -1,5 +1,0 @@
-
-I am abhay. 
-I am learning file I/O in python.
-This is my first file.
-Thank you.
