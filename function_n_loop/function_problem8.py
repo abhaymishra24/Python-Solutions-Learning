@@ -111,3 +111,33 @@ def reverse_num():
 # Call the function to run it
 reverse_num()
 
+# this is alternative way to reverse a list using insert method
+
+reversed_numbers = []
+for num in numbers:
+    reversed_numbers.insert(0, num)  # Insert at the beginning
+    
+print("Reversed list using insert:", reversed_numbers)
+
+
+# Here's a beginner-friendly Python program that reverses a list of numbers using the built-in reversed() function.
+
+def reverse_num():
+    # Ask the user to enter numbers separated by space
+    user_input = input("Enter numbers separated by space: ")
+
+    # Split the string into a list of strings
+    number_strings = user_input.split()
+
+    # Convert each string to an integer
+    numbers = [int(num) for num in number_strings]
+
+    # Use the built-in reversed() function and convert the result to a list
+    reversed_numbers = list(reversed(numbers))
+
+    # Print the reversed list
+    print("Reversed list:", reversed_numbers)
+
+# Call the function
+reverse_num()
+
