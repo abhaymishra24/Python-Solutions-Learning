@@ -70,7 +70,10 @@ earbuds()
 
 
 def reverse_num():
+    # Take input as a space-separated list of numbers
+    nums = input("Enter numbers separated by space: ").split()
+    nums = [int(x) for x in nums]
+    reversed_nums = nums[::-1]
+    print("Reversed list:", reversed_nums)
     
-    list = int(input())
-    
-    for i in range(1, list-1):
+reverse_num()
