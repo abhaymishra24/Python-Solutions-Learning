@@ -33,3 +33,14 @@ for i in range (1, n+1):
 # fourth we print all star using again same pattern
 
     print("")
+    
+    
+def print_star():
+    
+    n = int(input("Enter your number:"))    
+    for i in range(0, n):
+        for j in range(0, n):
+            print("*")
+        print("*",end="")
+        
+print_star()

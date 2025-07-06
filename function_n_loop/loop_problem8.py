@@ -28,3 +28,10 @@ for i in range(1, 100, 10):
     
 print("This is your number from 20 to 100 with step of 10.")
 print("This is the end of the loop.")
+
+# calculate factorial using fucntion - 
+
+def cal_fact():
+    
+    n = int(input("Enter ur number:"))
+    

@@ -68,3 +68,9 @@ def earbuds():
         
 earbuds()
 
+
+def reverse_num():
+    
+    list = int(input())
+    
+    for i in range(1, list-1):
