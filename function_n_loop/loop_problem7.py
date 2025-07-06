@@ -60,3 +60,34 @@ def print_star():
         print("*",end="")
         
 print_star()
+
+def print_pattern():
+    # Number of rows
+    rows = 4
+
+    # Outer loop for each row
+    for i in range(rows):
+        # Inner loop to print 4 stars in each row
+        for j in range(4):
+            print("*", end="")  # Print star without newline
+        print()  # Move to the next line after each row
+
+# Call the function to print the pattern
+print_pattern()
+
+# compare this snippet from function_n_loop/loop_problem7.py:
+
+def print_pattern():
+    # Ask the user for the number of rows and columns
+    rows = int(input("Enter number of rows: "))
+    cols = int(input("Enter number of columns: "))
+
+    # Loop through each row
+    for i in range(rows):
+        # Loop through each column and print stars
+        for j in range(cols):
+            print("*", end="")  # Stay on the same line
+        print()  # Go to the next line after each row
+
+# Call the function
+print_pattern()
