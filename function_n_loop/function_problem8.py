@@ -77,3 +77,37 @@ def reverse_num():
     print("Reversed list:", reversed_nums)
     
 reverse_num()
+
+
+def reverse_num():
+    # Prompt the user to enter numbers separated by spaces
+    nums = input("Enter numbers separated by space: ").split()
+    # Convert the input strings to integers
+    nums = [int(x) for x in nums]
+    # Reverse the list of numbers
+    reversed_nums = nums[::-1]
+    # Print the reversed list
+    print("Reversed list:", reversed_nums)
+
+reverse_num()
+
+
+def reverse_num():
+    # Ask the user to enter numbers separated by spaces
+    user_input = input("Enter numbers separated by space: ")
+    
+    # Split the input string into a list of strings (e.g., ["1", "2", "3"])
+    number_strings = user_input.split()
+    
+    # Convert each string in the list to an integer
+    numbers = [int(num) for num in number_strings]
+    
+    # Reverse the list using slicing
+    reversed_numbers = numbers[::-1]    #reversed_numbers = list(reversed(numbers))
+
+    # Print the reversed list
+    print("Reversed list:", reversed_numbers)
+
+# Call the function to run it
+reverse_num()
+
