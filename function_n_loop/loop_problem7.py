@@ -36,6 +36,22 @@ for i in range (1, n+1):
     
     
 def print_star():
+    n = int(input("Enter your number: "))
+    for i in range(n):
+        for j in range(n):
+            if i == 0 or i == n - 1:
+                print("*", end="")
+            else:
+                if j == 0 or j == n - 1:
+                    print("*", end="")
+                else:
+                    print(" ", end="")
+        print()
+        
+print_star()
+
+
+def print_star():
     
     n = int(input("Enter your number:"))    
     for i in range(0, n):
