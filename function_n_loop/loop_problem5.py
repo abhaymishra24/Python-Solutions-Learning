@@ -27,3 +27,4 @@ for i in range (1, n+1):
 # third we print all star using again same pattern
 
     print("")
+    
