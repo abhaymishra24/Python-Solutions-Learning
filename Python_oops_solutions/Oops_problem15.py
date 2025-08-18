@@ -20,6 +20,11 @@ class Mamber:
         
     def display(self):
         print(f"Name: {self.Name}, Age: {self.Age}, Gmail: {self.Gmail}, Phone: {self.Phone}, College: {self.College}, Department: {self.Department}")
+        
+    @staticmethod
+    def greet():
+        print("Hello, Good to see you here")
+    
 
 m = Mamber("Abhay", "22", "tehchyu@hhaygamil.com", "786959745", "IIT Delhi", "Computer Science")
 m.store()
