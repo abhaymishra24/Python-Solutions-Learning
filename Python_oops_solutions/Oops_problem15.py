@@ -17,7 +17,12 @@ class Mamber:
         print(f"College: {self.College}")
         print(f"Phone: {self.Phone}")
         print(f"Department: {self.Department}")
+        
+    def display(self):
+        print(f"Name: {self.Name}, Age: {self.Age}, Gmail: {self.Gmail}, Phone: {self.Phone}, College: {self.College}, Department: {self.Department}")
 
 m = Mamber("Abhay", "22", "tehchyu@hhaygamil.com", "786959745", "IIT Delhi", "Computer Science")
 m.store()
+m.display()
             
+
