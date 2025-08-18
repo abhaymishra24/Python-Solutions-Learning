@@ -9,15 +9,15 @@ class Mamber:
         self.Phone = Phone
         self.College = College
         self.Department = Department
-        
-        def store(self):
-            print(f"Name: {self.Name}")
-            print(f"Gmail: {self.Gmail}")
-            print(f"College: {self.College}")
-            print(f"Phone: {self.Phone}")
-            print(f"Department: {self.Department}")
-            
-        
-m = Mamber("Abhay", 22, "tehchyu@hhaygamil.com", "786959745", "IIT Delhi", "Computer Science")
+
+    def store(self):
+        print(f"Name: {self.Name}")
+        print(f"Age: {self.Age}")
+        print(f"Gmail: {self.Gmail}")
+        print(f"College: {self.College}")
+        print(f"Phone: {self.Phone}")
+        print(f"Department: {self.Department}")
+
+m = Mamber("Abhay", "22", "tehchyu@hhaygamil.com", "786959745", "IIT Delhi", "Computer Science")
 m.store()
             
