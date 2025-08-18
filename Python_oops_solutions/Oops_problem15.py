@@ -11,10 +11,13 @@ class Mamber:
         self.Department = Department
         
         def store(self):
-            print("Name:", self.Name)
-            print("Gmail:", self.Gmail)
-            print("College:", self.College)
-            print("Phone:", self.Phone)
-            print("Department:", self.Department)
+            print(f"Name: {self.Name}")
+            print(f"Gmail: {self.Gmail}")
+            print(f"College: {self.College}")
+            print(f"Phone: {self.Phone}")
+            print(f"Department: {self.Department}")
             
+        
+m = Mamber("Abhay", 22, "tehchyu@hhaygamil.com", "786959745", "IIT Delhi", "Computer Science")
+m.store()
             
