@@ -37,8 +37,8 @@ class Number:
     
     def get_num():
         
-        a = input(int,"Enter your number: ")
-        b = input(int("Enter your number: "))
+        a = int(input("Enter your number: "))
+        b = int(input("Enter your number: "))
         
         c = a*b
         d = a+b
