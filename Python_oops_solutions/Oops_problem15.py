@@ -62,8 +62,28 @@ class Number:
         print("This is Division operation.")
         
         
+    def work_option():
+        
+        a = int(input("Number is: "))
+        b = int(input("Number is: "))
+        
+        if a > b:
+            print("Your number is:{a+b}")
+            
+        elif a < b:
+            print("Your number is: {a/b}")
+            
+        elif a == b:
+            print("Your number is: {a*b}")
+            
+        else:
+            print("Your number is incorrect for any operation.")
+            
 
 Number.get_num()
 Number.name_ops()
+Number.work_option()
+
+
 
 
