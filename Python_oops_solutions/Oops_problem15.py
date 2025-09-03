@@ -52,13 +52,13 @@ class Number:
         a = int(input("Your number is: "))
         b = int(input("Your second number is: "))
         
-        print("Your number is: {a+b}. This number is adding.")
+        print(f"Your number is: {a+b}. This number is adding.")
         print("This is add operation.")
         
-        print("Your number is: {a*b}. This is number is product.")
+        print(f"Your number is: {a*b}. This is number is product.")
         print("This is multiply operation.")
         
-        print("Your number is: {a/b}. This number is divide.")
+        print(f"Your number is: {int(a/b)}. This number is divide.")
         print("This is Division operation.")
         
         
