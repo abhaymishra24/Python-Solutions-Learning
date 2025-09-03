@@ -37,8 +37,8 @@ class Number:
     
     def get_num():
         
-        a = input("Enter your number: ")
-        b = input("Enter your number: ")
+        a = input(int,"Enter your number: ")
+        b = input(int("Enter your number: "))
         
         c = a*b
         d = a+b
@@ -46,3 +46,6 @@ class Number:
         
         print(f"Multiply:{c} , ADD is: {d} , Division are: {j}")
         
+        
+
+Number.get_num()
