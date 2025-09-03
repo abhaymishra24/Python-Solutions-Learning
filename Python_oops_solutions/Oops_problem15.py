@@ -68,22 +68,28 @@ class Number:
         b = int(input("Number is: "))
         
         if a > b:
-            print("Your number is:{a+b}")
+            print(f"Your number is:{a+b}")
             
         elif a < b:
-            print("Your number is: {a/b}")
+            print(f"Your number is: {a/b}")
             
         elif a == b:
-            print("Your number is: {a*b}")
+            print(f"Your number is: {a*b}")
             
         else:
             print("Your number is incorrect for any operation.")
             
-
+            
+    def last():
+        
+        print("This is mathmatic basic operation. Using class and function.")
+        print("This is add, multiply, divide operation.")
+        print("Mathmatic. Keep parctice. Coding and have fun.")
+        
+            
 Number.get_num()
 Number.name_ops()
 Number.work_option()
-
-
-
+Number.last()
+ 
 
