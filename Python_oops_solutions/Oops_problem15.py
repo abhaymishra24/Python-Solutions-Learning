@@ -31,3 +31,18 @@ m.store()
 m.display()
             
 
+# here solve once again - 
+
+class Number:
+    
+    def get_num():
+        
+        a = input("Enter your number: ")
+        b = input("Enter your number: ")
+        
+        c = a*b
+        d = a+b
+        j = a//b
+        
+        print(f"Multiply:{c} , ADD is: {d} , Division are: {j}")
+        
