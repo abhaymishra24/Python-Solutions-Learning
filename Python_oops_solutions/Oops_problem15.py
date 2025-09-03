@@ -46,6 +46,24 @@ class Number:
         
         print(f"Multiply:{c} , ADD is: {d} , Division are: {j}")
         
+    
+    def name_ops():
+        
+        a = int(input("Your number is: "))
+        b = int(input("Your second number is: "))
+        
+        print("Your number is: {a+b}. This number is adding.")
+        print("This is add operation.")
+        
+        print("Your number is: {a*b}. This is number is product.")
+        print("This is multiply operation.")
+        
+        print("Your number is: {a/b}. This number is divide.")
+        print("This is Division operation.")
+        
         
 
 Number.get_num()
+Number.name_ops()
+
+
