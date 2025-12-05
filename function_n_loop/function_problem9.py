@@ -1,16 +1,24 @@
 
+a = 64
+b = 16
+
+x = (a+b)/2
+print(int(x))
+
+y = a - x
+print(int(y))
+
+# using function - 
+
 def number():
-    x = 0
-    y = 0
+    
     a = 64
     b = 16
     
-    add = ((x+y)+(x-y)) = (a+b)
-    print(add)
+    x = int((a+b)/2)
+    y = int(a-x)
     
-    x = add
-    (x+y) = a
-    y = a-x
-    print(y) 
+    print(f"Answer is: {x}")
+    print(f"Answer is: {y}")
     
-    
+number()
