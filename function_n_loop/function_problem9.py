@@ -22,3 +22,19 @@ def number():
     print(f"Answer is: {y}")
     
 number()
+
+
+# here solve other math solution -
+
+def num():
+    
+    x = 20-2
+    y = x/2
+    
+    sol = y+2
+    
+    print(f"the number is: {x}, {y}, {sol}")
+    print(f"Final number of addition is: {sol+y}")
+    
+num()
+    
