@@ -33,8 +33,8 @@ def num():
     
     sol = y+2
     
-    print(f"the number is: {x}, {y}, {sol}")
-    print(f"Final number of addition is: {sol+y}")
+    print(f"the number is: {int(y)}, {int(sol)}")
+    print(f"Final number of addition is: {int(sol+y)}")
     
 num()
     
