@@ -37,4 +37,10 @@ def num():
     print(f"Final number of addition is: {int(sol+y)}")
     
 num()
+
+# write a function program - 
+
+def number():
+    
+    
     
