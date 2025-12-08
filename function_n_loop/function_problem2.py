@@ -21,10 +21,16 @@ def fact():
     
     n = (4,5,8,9,2,3)
     k = (min(n))
-    if k<10:
-        return k*4
-     
-    
-    
+    print(k*4)
 fact()
+
+def fact_n():
+    
+    n = (4,3,5,6,7,8)
+    for i in n:
+        if i > 5:
+           print(i*6)
+           
+fact_n()
+
 
