@@ -24,6 +24,8 @@ def fact():
     print(k*4)
 fact()
 
+# b programm -
+
 def fact_n():
     
     n = (4,3,5,6,7,8)

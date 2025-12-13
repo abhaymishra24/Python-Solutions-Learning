@@ -19,7 +19,7 @@ print(f"{round(c, 2)}°C.")                 # print the result
 # so we can use end="" blank function for avoid line
 
 
-print("Abhay")
-print("is")
-print("a ", end="")
-print("programmer", end="")           # use of end=" blank space for avoid new line"
+# print("Abhay")
+# print("is")
+# print("a ", end="")
+# print("programmer", end="")           # use of end=" blank space for avoid new line"
