@@ -14,6 +14,10 @@ nested_list = [[1, 2], [3, 4]]
 result = combine_values(nested_list)
 print("Combined list:", result)  # Output: Combined list: [1, 2, 3, 4]
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+
 # here code with comments - 
 
 # Define a function that takes a nested list as input
@@ -46,4 +50,7 @@ def combine_values_list_comprehension(nested_list):
 nested_list = [[1, 2], [3, 4]]      
 result = combine_values_list_comprehension(nested_list)
 print("Combined list using list comprehension:", result)  # Output: Combined list using list comprehension
+
+# time complexity - O(n)
+# space complexity - O(n)
 
