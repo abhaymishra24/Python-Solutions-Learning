@@ -2,14 +2,21 @@
 # here wtire a program to reverse a string without using inbuilt reverse function - 
 
 def reverse_string(s):
-    reversed_s = ""    # Initialize an empty string to store the reversed result
-    for char in s:      # Iterate through each character in the input string from start to end
-        reversed_s = char + reversed_s   # Prepend the current character to the reversed string
-                                         # This places each new character at the beginning of the result
-    return reversed_s                    # Return the completely reversed string
+    # Initialize an empty string to store the reversed result
+    reversed_s = ""
+    # Iterate through each character in the input string from start to end
+    for char in s:
+        # Prepend the current character to the reversed string
+        # This places each new character at the beginning of the result
+        reversed_s = char + reversed_s
+    # Return the completely reversed string
+    return reversed_s
 
+# Store the input string that needs to be reversed
 input_string = "Hello, World!"
+# Call the reverse_string function and store the result in reversed_string variable
 reversed_string = reverse_string(input_string)
+# Print the output with a descriptive label
 print("Reversed string:", reversed_string)
 
 """
