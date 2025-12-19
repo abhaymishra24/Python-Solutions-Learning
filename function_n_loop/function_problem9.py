@@ -40,7 +40,5 @@ num()
 
 # write a function program - 
 
-def number():
-    
-    
+
     
