@@ -35,3 +35,15 @@ nested_list = [[1, 2], [3, 4]]
 result = combine_values(nested_list)
 # Print the combined list result
 print("Combined list:", result)
+
+
+# solve  this problem again using list comprehension -
+
+def combine_values_list_comprehension(nested_list):
+    return [item for sublist in nested_list for item in sublist]
+
+# Example usage
+nested_list = [[1, 2], [3, 4]]      
+result = combine_values_list_comprehension(nested_list)
+print("Combined list using list comprehension:", result)  # Output: Combined list using list comprehension
+
