@@ -64,3 +64,15 @@ def shift_number_right_to_left2():
 shift_number_right_to_left2()
 
 
+def shift_number_right_to_left3(n):
+    last_digit = n % 10
+    remaining = n // 10
+    digits = len(str(remaining))
+    result = last_digit * (10 ** digits) + remaining
+    print("Shifted number inside function:", result)
+    
+shift_number_right_to_left3(5678)
+
+# Time Complexity: O(d), where d is the number of digits in the number.
+# Space Complexity: O(1), as we are using a constant amount of space.
+
