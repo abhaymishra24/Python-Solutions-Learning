@@ -2,7 +2,17 @@
 # here wtire a program to reverse a string without using inbuilt reverse function - 
 
 def reverse_string(s):
-    """
+    reversed_s = ""    # Initialize an empty string to store the reversed result
+    for char in s:      # Iterate through each character in the input string from start to end
+        reversed_s = char + reversed_s   # Prepend the current character to the reversed string
+                                         # This places each new character at the beginning of the result
+    return reversed_s                    # Return the completely reversed string
+
+input_string = "Hello, World!"
+reversed_string = reverse_string(input_string)
+print("Reversed string:", reversed_string)
+
+"""
     Reverse a string without using built-in reverse functions.
     
     This function takes a string as input and returns a new string with 
@@ -33,20 +43,5 @@ def reverse_string(s):
         While this implementation works correctly, it's inefficient for 
         large strings due to string immutability in Python. Consider using
         s[::-1] or other approaches for better performance.
-    """
-    # Initialize an empty string to store the reversed result
-    
-    # Iterate through each character in the input string from start to end
-        # Prepend the current character to the reversed string
-        # This places each new character at the beginning of the result
-    
-    # Return the completely reversed string
-    reversed_s = ""
-    for char in s:
-        reversed_s = char + reversed_s
-    return reversed_s   
-
-input_string = "Hello, World!"
-reversed_string = reverse_string(input_string)
-print("Reversed string:", reversed_string)
+"""
 
