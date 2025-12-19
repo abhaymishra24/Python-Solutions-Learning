@@ -35,4 +35,3 @@ nested_list = [[1, 2], [3, 4]]
 result = combine_values(nested_list)
 # Print the combined list result
 print("Combined list:", result)
-
