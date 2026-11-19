@@ -71,6 +71,28 @@
 
 # parent class 
 
+# class Vehicle:
+#     def __init__(self, name):
+#         self.name = name
+        
+#     def display(self):
+#         print(f"Vahical is {self.name}")
+        
+# # Child Class 
+
+# class Wheels(Vehicle):
+#     def __init__(self, name, wheels):
+#         super().__init__(name)
+#         self.wheels = wheels 
+        
+#     def display(self):
+#         print(f"Vehicle is a {self.name} having {self.wheels} number of wheels")
+        
+# c = Wheels ('car', 4)
+# c.display()
+
+# Multilevel Inheritance
+
 class Vehicle:
     def __init__(self, name):
         self.name = name
@@ -78,8 +100,7 @@ class Vehicle:
     def display(self):
         print(f"Vahical is {self.name}")
         
-# Child Class 
-
+        
 class Wheels(Vehicle):
     def __init__(self, name, wheels):
         super().__init__(name)
@@ -88,5 +109,20 @@ class Wheels(Vehicle):
     def display(self):
         print(f"Vehicle is a {self.name} having {self.wheels} number of wheels")
         
-c = Wheels ('car', 4)
+        
+class Status(Wheels):
+    def __init__(self, name, wheels, status):
+        super().__init__(name, wheels)
+        self.status = status
+        
+    def display(self):
+        return f'{self.name} is a vehicle with {self.wheels} wheels and is {self.status}'
+    
+
+c = Status('Car', 4, 'Personal')
+c1 = Status('Car', 4, 'rented')
 c.display()
+c1.display()
+
+## In multilevel innheritance - grand parents and parent  common atrribute shuold be 
+# initlized and 
