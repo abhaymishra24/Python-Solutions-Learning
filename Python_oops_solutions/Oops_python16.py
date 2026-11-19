@@ -71,25 +71,25 @@
 
 # parent class 
 
-# class Vehicle:
-#     def __init__(self, name):
-#         self.name = name
+class Vehicle:
+    def __init__(self, name):
+        self.name = name
         
-#     def display(self):
-#         print(f"Vahical is {self.name}")
+    def display(self):
+        print(f"Vahical is {self.name}")
         
-# # Child Class 
+# Child Class 
 
-# class Wheels(Vehicle):
-#     def __init__(self, name, wheels):
-#         super().__init__(name)
-#         self.wheels = wheels 
+class Wheels(Vehicle):
+    def __init__(self, name, wheels):
+        super().__init__(name)
+        self.wheels = wheels 
         
-#     def display(self):
-#         print(f"Vehicle is a {self.name} having {self.wheels} number of wheels")
+    def display(self):
+        print(f"Vehicle is a {self.name} having {self.wheels} number of wheels")
         
-# c = Wheels ('car', 4)
-# c.display()
+c = Wheels ('car', 4)
+c.display()
 
 # Multilevel Inheritance
 
@@ -125,4 +125,30 @@ c.display()
 c1.display()
 
 ## In multilevel innheritance - grand parents and parent  common atrribute shuold be 
-# initlized and 
+# initlized in the parent and in the child all the common attributes have to be initialized through
+# super()
+
+# Multiple Inheritance (One child having more then one parent (2 or more))
+
+class A:
+    def process(self):
+        print("Exceuting A")
+        
+class B(A):
+    def process(self):
+        print("Exceuting B")
+        super().process()
+ 
+class C(B):
+    def process(self):
+        print("Exceuting C")
+        super().process() 
+        
+class D(B, C):
+    def process(self):
+        print("Exceuting D")
+        super().process()  
+        
+        
+D().process()    
+
