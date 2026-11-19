@@ -63,3 +63,13 @@ h.display_info()
 
 # super() allows common atttributes and attributes exclusive to the parent to be accesed by the child
 
+hero = Warrior('Aria', 2, 'Sword')
+hero.display_info()
+
+villian = Warrior('Agustus', 2, 'Spear')
+villian.display_info()
+
+villian.super().display_info()
+
+super().display_info()
+
